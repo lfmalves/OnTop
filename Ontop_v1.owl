@@ -1,0 +1,5256 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/luis-alves/ontologies/2024/8/tabak"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/luis-alves/ontologies/2024/8/tabak">
+    <Prefix name="" IRI="http://www.semanticweb.org/luis-alves/ontologies/2024/8/tabak#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="tabak" IRI="http://www.semanticweb.org/luis-alves/ontologies/2024/8/tabak#"/>
+    <Declaration>
+        <Class IRI="#Acrisol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivateInsurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AffectedPlants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirCuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnimalTraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AutomatedValve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalAndOrganicFertilization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClimateCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connecticut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControlledCuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultivar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuredLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuringDuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuringPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuringProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DamagedRawLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DateOfIdentification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DateOfSowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DieselPump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiscFilter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiscPlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistributionSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DripIrrigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricPump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FertilizerAmount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FertilizerApplication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FertilizerType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FiltrationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrostIncidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GalvanizedSteelPipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeographicalLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Greenhouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HailstoneOccurence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HarvestDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthyPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthySeedling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighMiddle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighMiddleReap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncidenceOfPestsAndDiseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irrigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latosol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LimeAmount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LimeApplication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowMiddle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowMiddleReap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowerReap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManagementAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManualValve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maryland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeratelyAcidic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModeratelyAlkaline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoldboardPlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoldyCuredLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neutral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nitisol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NociveWeeds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OvercuredLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PVCPipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PesticideAmount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PesticideApplication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PesticideType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PestsAndDiseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlantSpacing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolyethylenePipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureRegulator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureReliefValve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductionEstimate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductionStage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PumpingSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RainfallAmount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RawLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reservoir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#River"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SandFilter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saturated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScreenFilter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeedTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seedling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemiArid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SickPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SideShootsManualPicking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SlightlyAcidic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SlightlyAlkaline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoilCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoilCorrection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoilMoisture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoilPreparation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoilType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SolarPump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SprinklerIrrigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StronglyAcidic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StronglyAlkaline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubHumid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuckerRemoval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuckericideAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SunlightExposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfaceIrrigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoCuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoHarvest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoLifecycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoPlanting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoSeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoSeedbed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoSeedling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TobaccoTopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Top"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopReap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransferToSoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatedSeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UndamagedRawLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UndercuredLeaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnhealthySeedling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UntreatedSeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virginia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WarrenHoe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterSource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weeding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Well"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YieldOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YieldPerHectare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pH"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affectsHealth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affectsWatering"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affectsYield"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attributeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attributeOfField"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsNicotine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsSeed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contributesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contributesToYield"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controlsWatering"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#curedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#curedByAir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#curedByControlledCuring"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#damages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#damagesYield"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dependsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#destroyedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#destroyedByLabourer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#developedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#developsInto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#follows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#followsCuring"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#followsHarvesting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#followsPlanting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#followsSowing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#followsTopping"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCultivar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSoilMoisture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSoilPH"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSoilType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hosts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hostsCuringProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inspectedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSiblingOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedInCuringPlace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedInField"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedInSpot"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needsDesolha"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needsFertilizer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needsLime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needsPesticide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needsWeeding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#operatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsManualLabour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsSeedTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsSowing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performsWeeding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesCuring"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesHarvestingHighMiddle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesHarvestingLowMiddle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesHarvestingTop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesLeaf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesPlant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesPlanting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesSeedling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesSowing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesTopping"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedesTransferToSoil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producesLeaves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresEquipment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresPreparation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresSunlight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#resultsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transfered"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treatedBySeedTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedInFieldPreparationBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedInFieldPreparationFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#waters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#altitudeMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bactericideName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#chemicallyTreatedWithBactericide"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#chemicallyTreatedWithFungicide"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#chemicallyTreatedWithInsecticide"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfFertilizerApplication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfFrostIncidence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfHailstoneOccurence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfInsuranceActivation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfIrrigation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateOfRainfall"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fertilizerMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fertilizerNPK"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fertilizerName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fieldLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fieldLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#frostMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fungicideName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hailstoneIntensity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#harvestedAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasColor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDiscoloration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInsectDamage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMechanicalDamage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMold"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPatches"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSpots"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inPlasticTray"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inPolystyreneTray"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#insecticideName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#irrigationFrequencyMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#irrigationMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAHealthyPlant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAHealthySeedling"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isOvercured"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isRenewable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isUndercured"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#leafMaturityLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nicotineMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pHLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rainfallMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#seedRateMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sizeMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#soilMoistureMeasurementUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sownAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#substrateType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#suckersRemovedAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#thinnedAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#toppedAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transplantationToSoilAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessAltitudeScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessFertilizerScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessFieldSizeScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessFrostScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessIrrigationFrequencyScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessIrrigationScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessNicotineScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessRainfallScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessSeedRateScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#unitlessSoilMoistureScalar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wasDisinfected"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wasHormonallyTreated"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wasPelleted"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wasPrimmed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weededAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#whenMatureHasLengthInCentimeters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#automated_valve_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#controled_curing_process_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disc_plow_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dripper_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#electric_pump_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#field_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frost_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#geographical_location_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#greenhouse_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hailstone_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#humidity_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#labourer_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plant_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plant_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pressure_regulator_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#production_yield_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pvc_pipe_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rainfall_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reservoir_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#screen_filter_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seed_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seed_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seed_03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seedbed_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seedling_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seedling_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seedling_03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soil_moisture_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soil_pH_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soil_preparation_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soil_type_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substrate_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sunlight_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#transfer_to_soil_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#DamagedRawLeaf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#RawLeaf"/>
+            <ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasDiscoloration"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasInsectDamage"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasMechanicalDamage"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasPatches"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasSpots"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HealthyPlant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TobaccoPlant"/>
+            <DataHasValue>
+                <DataProperty IRI="#isAHealthyPlant"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HealthySeedling"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Seedling"/>
+            <DataHasValue>
+                <DataProperty IRI="#isAHealthySeedling"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MoldyCuredLeaf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CuredLeaf"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasMold"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OvercuredLeaf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CuredLeaf"/>
+            <DataHasValue>
+                <DataProperty IRI="#isOvercured"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SickPlant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TobaccoPlant"/>
+            <DataHasValue>
+                <DataProperty IRI="#isAHealthyPlant"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TreatedSeed"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TobaccoSeed"/>
+            <ObjectUnionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#chemicallyTreatedWithBactericide"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#chemicallyTreatedWithFungicide"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#chemicallyTreatedWithInsecticide"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#wasDisinfected"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#wasHormonallyTreated"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#wasPelleted"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+                </DataHasValue>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UndamagedRawLeaf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#RawLeaf"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#hasDiscoloration"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasInsectDamage"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasMechanicalDamage"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasPatches"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#hasSpots"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UndercuredLeaf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CuredLeaf"/>
+            <DataHasValue>
+                <DataProperty IRI="#isUndercured"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UnhealthySeedling"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Seedling"/>
+            <DataHasValue>
+                <DataProperty IRI="#isAHealthySeedling"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UntreatedSeed"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TobaccoSeed"/>
+            <ObjectIntersectionOf>
+                <DataHasValue>
+                    <DataProperty IRI="#chemicallyTreatedWithBactericide"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#chemicallyTreatedWithFungicide"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#chemicallyTreatedWithInsecticide"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#wasDisinfected"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#wasHormonallyTreated"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+                <DataHasValue>
+                    <DataProperty IRI="#wasPelleted"/>
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acrisol"/>
+        <Class IRI="#SoilType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivateInsurance"/>
+        <Class IRI="#ManagementAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AffectedPlants"/>
+        <Class IRI="#IncidenceOfPestsAndDiseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirCuring"/>
+        <Class IRI="#CuringProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnimalTraction"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arid"/>
+        <Class IRI="#SoilMoisture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AutomatedValve"/>
+        <Class IRI="#Valves"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burley"/>
+        <Class IRI="#Cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalAndOrganicFertilization"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connecticut"/>
+        <Class IRI="#Cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlledCuring"/>
+        <Class IRI="#CuringProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultivar"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultivar"/>
+        <ObjectUnionOf>
+            <Class IRI="#Burley"/>
+            <Class IRI="#Connecticut"/>
+            <Class IRI="#Maryland"/>
+            <Class IRI="#Virginia"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuredLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuredLeaf"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasColor"/>
+            <DataOneOf>
+                <Literal>golden_brown</Literal>
+                <Literal>light_brown</Literal>
+                <Literal>pale_yellow</Literal>
+                <Literal>yellowish_brown</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuringDuration"/>
+        <Class IRI="#TobaccoCuring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuringPlace"/>
+        <Class IRI="#TobaccoCuring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuringProcess"/>
+        <Class IRI="#TobaccoCuring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DamagedRawLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateOfIdentification"/>
+        <Class IRI="#IncidenceOfPestsAndDiseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateOfSowing"/>
+        <Class IRI="#Sowing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DieselPump"/>
+        <Class IRI="#PumpingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiscFilter"/>
+        <Class IRI="#FiltrationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiscPlow"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributionSystem"/>
+        <Class IRI="#Irrigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DripIrrigation"/>
+        <Class IRI="#DistributionSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricPump"/>
+        <Class IRI="#PumpingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#SoilPreparation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertilizerAmount"/>
+        <Class IRI="#FertilizerApplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertilizerApplication"/>
+        <Class IRI="#ManagementAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FertilizerType"/>
+        <Class IRI="#FertilizerApplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FiltrationSystem"/>
+        <Class IRI="#Irrigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrostIncidence"/>
+        <Class IRI="#ClimateCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GalvanizedSteelPipe"/>
+        <Class IRI="#Piping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeographicalLocation"/>
+        <Class IRI="#TobaccoField"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Greenhouse"/>
+        <Class IRI="#CuringPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HailstoneOccurence"/>
+        <Class IRI="#ClimateCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HarvestDate"/>
+        <Class IRI="#TobaccoCuring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Health"/>
+        <Class IRI="#HumanAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthyPlant"/>
+        <Class IRI="#TobaccoPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthySeedling"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighMiddle"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighMiddleReap"/>
+        <Class IRI="#HighMiddle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humid"/>
+        <Class IRI="#SoilMoisture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humidity"/>
+        <Class IRI="#ClimateCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncidenceOfPestsAndDiseases"/>
+        <Class IRI="#PestsAndDiseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irrigation"/>
+        <Class IRI="#ManagementAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lake"/>
+        <Class IRI="#WaterSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latosol"/>
+        <Class IRI="#SoilType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimeAmount"/>
+        <Class IRI="#LimeApplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimeApplication"/>
+        <Class IRI="#ManagementAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowMiddle"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowMiddleReap"/>
+        <Class IRI="#LowMiddle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lower"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowerReap"/>
+        <Class IRI="#Lower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManualValve"/>
+        <Class IRI="#Valves"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maryland"/>
+        <Class IRI="#Cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeratelyAcidic"/>
+        <Class IRI="#pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModeratelyAlkaline"/>
+        <Class IRI="#pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoldboardPlow"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoldyCuredLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neutral"/>
+        <Class IRI="#pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nitisol"/>
+        <Class IRI="#SoilType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NociveWeeds"/>
+        <Class IRI="#PestsAndDiseases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OvercuredLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PVCPipe"/>
+        <Class IRI="#Piping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PesticideAmount"/>
+        <Class IRI="#PesticideApplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PesticideApplication"/>
+        <Class IRI="#ManagementAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PesticideType"/>
+        <Class IRI="#PesticideApplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piping"/>
+        <Class IRI="#Irrigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlantSpacing"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolyethylenePipe"/>
+        <Class IRI="#Piping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pond"/>
+        <Class IRI="#WaterSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureRegulator"/>
+        <Class IRI="#Irrigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureReliefValve"/>
+        <Class IRI="#Valves"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductionEstimate"/>
+        <Class IRI="#TobaccoTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingSystem"/>
+        <Class IRI="#Irrigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RainfallAmount"/>
+        <Class IRI="#ClimateCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RawLeaf"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasColor"/>
+            <DataOneOf>
+                <Literal>bright_green</Literal>
+                <Literal>brownish_green</Literal>
+                <Literal>light_green</Literal>
+                <Literal>pale_yellow</Literal>
+                <Literal>yellowish_green</Literal>
+            </DataOneOf>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <Class IRI="#WaterSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#River"/>
+        <Class IRI="#WaterSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SandFilter"/>
+        <Class IRI="#FiltrationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saturated"/>
+        <Class IRI="#SoilMoisture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScreenFilter"/>
+        <Class IRI="#FiltrationSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeedTreatment"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seedling"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemiArid"/>
+        <Class IRI="#SoilMoisture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shed"/>
+        <Class IRI="#CuringPlace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SickPlant"/>
+        <Class IRI="#TobaccoPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SideShootsManualPicking"/>
+        <Class IRI="#SuckerRemoval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Size"/>
+        <Class IRI="#TobaccoField"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlightlyAcidic"/>
+        <Class IRI="#pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SlightlyAlkaline"/>
+        <Class IRI="#pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soil"/>
+        <Class IRI="#TobaccoField"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoilCorrection"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoilMoisture"/>
+        <Class IRI="#SoilCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoilPreparation"/>
+        <Class IRI="#ManagementAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoilType"/>
+        <Class IRI="#SoilCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SolarPump"/>
+        <Class IRI="#PumpingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sowing"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SprinklerIrrigation"/>
+        <Class IRI="#DistributionSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StronglyAcidic"/>
+        <Class IRI="#pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StronglyAlkaline"/>
+        <Class IRI="#pH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubHumid"/>
+        <Class IRI="#SoilMoisture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substrate"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuckerRemoval"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuckericideAgent"/>
+        <Class IRI="#SuckerRemoval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SunlightExposure"/>
+        <Class IRI="#ClimateCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfaceIrrigation"/>
+        <Class IRI="#DistributionSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#ClimateCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoCuring"/>
+        <Class IRI="#ProductionStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoHarvest"/>
+        <Class IRI="#ProductionStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoLeaf"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoPlant"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoPlanting"/>
+        <Class IRI="#ProductionStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoSeed"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoSeedbed"/>
+        <Class IRI="#ProductionStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoSeedling"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TobaccoTopping"/>
+        <Class IRI="#ProductionStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Top"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopReap"/>
+        <Class IRI="#Top"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topping"/>
+        <Class IRI="#TobaccoTopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransferToSoil"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatedSeed"/>
+        <Class IRI="#TobaccoSeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UndamagedRawLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UndercuredLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnhealthySeedling"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UntreatedSeed"/>
+        <Class IRI="#TobaccoSeed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valves"/>
+        <Class IRI="#Irrigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virginia"/>
+        <Class IRI="#Cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WarrenHoe"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterSource"/>
+        <Class IRI="#Irrigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weeding"/>
+        <Class IRI="#ManagementAction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Well"/>
+        <Class IRI="#WaterSource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YieldPerHectare"/>
+        <Class IRI="#YieldOutcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pH"/>
+        <Class IRI="#SoilCondition"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AirCuring"/>
+        <Class IRI="#ControlledCuring"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Burley"/>
+        <Class IRI="#Connecticut"/>
+        <Class IRI="#Maryland"/>
+        <Class IRI="#Virginia"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ClimateCondition"/>
+        <Class IRI="#HumanAgent"/>
+        <Class IRI="#ManagementAction"/>
+        <Class IRI="#PestsAndDiseases"/>
+        <Class IRI="#ProductionStage"/>
+        <Class IRI="#SoilCondition"/>
+        <Class IRI="#TobaccoField"/>
+        <Class IRI="#TobaccoLifecycle"/>
+        <Class IRI="#YieldOutcome"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CuredLeaf"/>
+        <Class IRI="#RawLeaf"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DamagedRawLeaf"/>
+        <Class IRI="#UndamagedRawLeaf"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Greenhouse"/>
+        <Class IRI="#Shed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HighMiddle"/>
+        <Class IRI="#LowMiddle"/>
+        <Class IRI="#Lower"/>
+        <Class IRI="#Top"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OvercuredLeaf"/>
+        <Class IRI="#UndercuredLeaf"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TobaccoCuring"/>
+        <Class IRI="#TobaccoHarvest"/>
+        <Class IRI="#TobaccoPlanting"/>
+        <Class IRI="#TobaccoSeedbed"/>
+        <Class IRI="#TobaccoTopping"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TreatedSeed"/>
+        <Class IRI="#UntreatedSeed"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#AutomatedValve"/>
+        <NamedIndividual IRI="#automated_valve_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ControlledCuring"/>
+        <NamedIndividual IRI="#controled_curing_process_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CuredLeaf"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CuredLeaf"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DiscPlow"/>
+        <NamedIndividual IRI="#disc_plow_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DripIrrigation"/>
+        <NamedIndividual IRI="#dripper_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElectricPump"/>
+        <NamedIndividual IRI="#electric_pump_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TobaccoField"/>
+        <NamedIndividual IRI="#field_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FrostIncidence"/>
+        <NamedIndividual IRI="#frost_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeographicalLocation"/>
+        <NamedIndividual IRI="#geographical_location_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Greenhouse"/>
+        <NamedIndividual IRI="#greenhouse_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HailstoneOccurence"/>
+        <NamedIndividual IRI="#hailstone_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humidity"/>
+        <NamedIndividual IRI="#humidity_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Irrigation"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HumanAgent"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HealthyPlant"/>
+        <NamedIndividual IRI="#plant_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SickPlant"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PressureRegulator"/>
+        <NamedIndividual IRI="#pressure_regulator_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YieldPerHectare"/>
+        <NamedIndividual IRI="#production_yield_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PVCPipe"/>
+        <NamedIndividual IRI="#pvc_pipe_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RainfallAmount"/>
+        <NamedIndividual IRI="#rainfall_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RawLeaf"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RawLeaf"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reservoir"/>
+        <NamedIndividual IRI="#reservoir_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ScreenFilter"/>
+        <NamedIndividual IRI="#screen_filter_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TreatedSeed"/>
+        <NamedIndividual IRI="#seed_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TreatedSeed"/>
+        <NamedIndividual IRI="#seed_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TreatedSeed"/>
+        <NamedIndividual IRI="#seed_03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sowing"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeedTreatment"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TobaccoSeedbed"/>
+        <NamedIndividual IRI="#seedbed_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HealthySeedling"/>
+        <NamedIndividual IRI="#seedling_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HealthySeedling"/>
+        <NamedIndividual IRI="#seedling_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UnhealthySeedling"/>
+        <NamedIndividual IRI="#seedling_03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SubHumid"/>
+        <NamedIndividual IRI="#soil_moisture_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SlightlyAcidic"/>
+        <NamedIndividual IRI="#soil_pH_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoilPreparation"/>
+        <NamedIndividual IRI="#soil_preparation_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nitisol"/>
+        <NamedIndividual IRI="#soil_type_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Substrate"/>
+        <NamedIndividual IRI="#substrate_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SunlightExposure"/>
+        <NamedIndividual IRI="#sunlight_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temperature"/>
+        <NamedIndividual IRI="#temperature_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TransferToSoil"/>
+        <NamedIndividual IRI="#transfer_to_soil_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Virginia"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#seed_01"/>
+        <NamedIndividual IRI="#seed_02"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#seedling_02"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#seedling_03"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#seedling_02"/>
+        <NamedIndividual IRI="#seedling_03"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#automated_valve_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedInCuringPlace"/>
+        <NamedIndividual IRI="#controled_curing_process_01"/>
+        <NamedIndividual IRI="#greenhouse_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contributesToYield"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <NamedIndividual IRI="#production_yield_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedFrom"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#damagesYield"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+        <NamedIndividual IRI="#production_yield_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedFrom"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#operatedBy"/>
+        <NamedIndividual IRI="#disc_plow_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedInFieldPreparationBy"/>
+        <NamedIndividual IRI="#disc_plow_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedInFieldPreparationFor"/>
+        <NamedIndividual IRI="#disc_plow_01"/>
+        <NamedIndividual IRI="#field_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#dripper_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#electric_pump_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSoilMoisture"/>
+        <NamedIndividual IRI="#field_01"/>
+        <NamedIndividual IRI="#soil_moisture_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSoilPH"/>
+        <NamedIndividual IRI="#field_01"/>
+        <NamedIndividual IRI="#soil_pH_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSoilType"/>
+        <NamedIndividual IRI="#field_01"/>
+        <NamedIndividual IRI="#soil_type_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedInSpot"/>
+        <NamedIndividual IRI="#field_01"/>
+        <NamedIndividual IRI="#geographical_location_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hostsCuringProcess"/>
+        <NamedIndividual IRI="#greenhouse_01"/>
+        <NamedIndividual IRI="#controled_curing_process_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#automated_valve_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#dripper_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#electric_pump_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#pressure_regulator_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#pvc_pipe_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#reservoir_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#screen_filter_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#operatedBy"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#waters"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#plant_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#waters"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#waters"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#seedling_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#waters"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#seedling_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#waters"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+        <NamedIndividual IRI="#seedling_03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <NamedIndividual IRI="#labourer_01"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <NamedIndividual IRI="#labourer_01"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performsSeedTreatment"/>
+        <NamedIndividual IRI="#labourer_01"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performsSowing"/>
+        <NamedIndividual IRI="#labourer_01"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedFrom"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#seedling_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isParentOf"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedFrom"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <NamedIndividual IRI="#plant_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isParentOf"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <NamedIndividual IRI="#plant_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#pressure_regulator_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#pvc_pipe_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <NamedIndividual IRI="#plant_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#reservoir_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#screen_filter_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developsInto"/>
+        <NamedIndividual IRI="#seed_01"/>
+        <NamedIndividual IRI="#seedling_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#seed_01"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <NamedIndividual IRI="#seed_01"/>
+        <NamedIndividual IRI="#substrate_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBySeedTreatment"/>
+        <NamedIndividual IRI="#seed_01"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developsInto"/>
+        <NamedIndividual IRI="#seed_02"/>
+        <NamedIndividual IRI="#seedling_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#seed_02"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <NamedIndividual IRI="#seed_02"/>
+        <NamedIndividual IRI="#substrate_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBySeedTreatment"/>
+        <NamedIndividual IRI="#seed_02"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developsInto"/>
+        <NamedIndividual IRI="#seed_03"/>
+        <NamedIndividual IRI="#seedling_03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#seed_03"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <NamedIndividual IRI="#seed_03"/>
+        <NamedIndividual IRI="#substrate_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treatedBySeedTreatment"/>
+        <NamedIndividual IRI="#seed_03"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#operatedBy"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#operatedBy"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#precedes"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsSeed"/>
+        <NamedIndividual IRI="#seedbed_01"/>
+        <NamedIndividual IRI="#seed_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsSeed"/>
+        <NamedIndividual IRI="#seedbed_01"/>
+        <NamedIndividual IRI="#seed_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsSeed"/>
+        <NamedIndividual IRI="#seedbed_01"/>
+        <NamedIndividual IRI="#seed_03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedFrom"/>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#seed_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developsInto"/>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#plant_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+        <NamedIndividual IRI="#seedling_01"/>
+        <NamedIndividual IRI="#transfer_to_soil_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedFrom"/>
+        <NamedIndividual IRI="#seedling_02"/>
+        <NamedIndividual IRI="#seed_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developsInto"/>
+        <NamedIndividual IRI="#seedling_02"/>
+        <NamedIndividual IRI="#plant_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#seedling_02"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <NamedIndividual IRI="#seedling_02"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+        <NamedIndividual IRI="#seedling_02"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+        <NamedIndividual IRI="#seedling_02"/>
+        <NamedIndividual IRI="#transfer_to_soil_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destroyedByLabourer"/>
+        <NamedIndividual IRI="#seedling_03"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedFrom"/>
+        <NamedIndividual IRI="#seedling_03"/>
+        <NamedIndividual IRI="#seed_03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <NamedIndividual IRI="#seedling_03"/>
+        <NamedIndividual IRI="#virginia_strain_PVH2310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <NamedIndividual IRI="#seedling_03"/>
+        <NamedIndividual IRI="#irrigation_system_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+        <NamedIndividual IRI="#seedling_03"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+        <NamedIndividual IRI="#seedling_03"/>
+        <NamedIndividual IRI="#transfer_to_soil_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <NamedIndividual IRI="#soil_moisture_01"/>
+        <NamedIndividual IRI="#field_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <NamedIndividual IRI="#soil_pH_01"/>
+        <NamedIndividual IRI="#field_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresEquipment"/>
+        <NamedIndividual IRI="#soil_preparation_01"/>
+        <NamedIndividual IRI="#disc_plow_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <NamedIndividual IRI="#soil_type_01"/>
+        <NamedIndividual IRI="#field_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+        <NamedIndividual IRI="#substrate_01"/>
+        <NamedIndividual IRI="#seed_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+        <NamedIndividual IRI="#substrate_01"/>
+        <NamedIndividual IRI="#seed_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affectsHealth"/>
+        <NamedIndividual IRI="#sunlight_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affectsHealth"/>
+        <NamedIndividual IRI="#temperature_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#operatedBy"/>
+        <NamedIndividual IRI="#transfer_to_soil_01"/>
+        <NamedIndividual IRI="#labourer_01"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMold"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOvercured"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isUndercured"/>
+        <NamedIndividual IRI="#cured_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMold"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isOvercured"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isUndercured"/>
+        <NamedIndividual IRI="#cured_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+        <NamedIndividual IRI="#frost_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#altitudeMeasurementUnit"/>
+        <NamedIndividual IRI="#geographical_location_01"/>
+        <Literal>metros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLatitude"/>
+        <NamedIndividual IRI="#geographical_location_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">-27.31264</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLongitude"/>
+        <NamedIndividual IRI="#geographical_location_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">-49.11389</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unitlessAltitudeScalar"/>
+        <NamedIndividual IRI="#geographical_location_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+        <NamedIndividual IRI="#hailstone_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAHealthyPlant"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sownAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-30T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#toppedAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transplantationToSoilAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-10T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weededAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-25T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weededAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weededAt"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-05T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#whenMatureHasLengthInCentimeters"/>
+        <NamedIndividual IRI="#plant_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">131.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAHealthyPlant"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sownAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-30T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#toppedAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-10T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transplantationToSoilAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-10T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weededAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-25T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weededAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weededAt"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-05T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#whenMatureHasLengthInCentimeters"/>
+        <NamedIndividual IRI="#plant_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">126.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+        <NamedIndividual IRI="#rainfall_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harvestedAt"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-01T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <Literal>light_green</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDiscoloration"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInsectDamage"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMechanicalDamage"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPatches"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpots"/>
+        <NamedIndividual IRI="#raw_leaf_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#harvestedAt"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-01T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasColor"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <Literal>pale_yellow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDiscoloration"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasInsectDamage"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMechanicalDamage"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPatches"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSpots"/>
+        <NamedIndividual IRI="#raw_leaf_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#inPlasticTray"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#inPolystyreneTray"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seedRateMeasurementUnit"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+        <Literal>grams per hectare</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sownAt"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-15T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#unitlessSeedRateScalar"/>
+        <NamedIndividual IRI="#seed_sowing_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#chemicallyTreatedWithBactericide"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#chemicallyTreatedWithFungicide"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#chemicallyTreatedWithInsecticide"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungicideName"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal>Captan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungicideName"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal>Thiram</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasDisinfected"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasHormonallyTreated"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasPelleted"/>
+        <NamedIndividual IRI="#seed_treatment_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#thinnedAt"/>
+        <NamedIndividual IRI="#seedbed_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-30T00:00:00Z</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <NamedIndividual IRI="#seedling_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <NamedIndividual IRI="#seedling_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <NamedIndividual IRI="#seedling_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isRenewable"/>
+        <NamedIndividual IRI="#substrate_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#substrateType"/>
+        <NamedIndividual IRI="#substrate_01"/>
+        <Literal>Coconut fiber</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affectsHealth"/>
+        <ObjectProperty IRI="#affects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <ObjectProperty IRI="#affects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affectsWatering"/>
+        <ObjectProperty IRI="#affects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#affectsYield"/>
+        <ObjectProperty IRI="#affects"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <ObjectProperty IRI="#attributeOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsNicotine"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsSeed"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contributesToYield"/>
+        <ObjectProperty IRI="#contributesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#controlsWatering"/>
+        <ObjectProperty IRI="#controls"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#curedByAir"/>
+        <ObjectProperty IRI="#curedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#curedByControlledCuring"/>
+        <ObjectProperty IRI="#curedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#damagesYield"/>
+        <ObjectProperty IRI="#damages"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#destroyedByLabourer"/>
+        <ObjectProperty IRI="#destroyedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#followsCuring"/>
+        <ObjectProperty IRI="#follows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#followsHarvesting"/>
+        <ObjectProperty IRI="#follows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#followsPlanting"/>
+        <ObjectProperty IRI="#follows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#followsSowing"/>
+        <ObjectProperty IRI="#follows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#followsTopping"/>
+        <ObjectProperty IRI="#follows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSoilMoisture"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSoilPH"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSoilType"/>
+        <ObjectProperty IRI="#has"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hostsCuringProcess"/>
+        <ObjectProperty IRI="#hosts"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <ObjectProperty IRI="#inspectedFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isParentOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#is"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#locatedInCuringPlace"/>
+        <ObjectProperty IRI="#locatedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#locatedInField"/>
+        <ObjectProperty IRI="#locatedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#locatedInSpot"/>
+        <ObjectProperty IRI="#locatedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#needsDesolha"/>
+        <ObjectProperty IRI="#needs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#needsFertilizer"/>
+        <ObjectProperty IRI="#needs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#needsLime"/>
+        <ObjectProperty IRI="#needs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#needsPesticide"/>
+        <ObjectProperty IRI="#needs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#needsWeeding"/>
+        <ObjectProperty IRI="#needs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <ObjectProperty IRI="#performs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <ObjectProperty IRI="#performsManualLabour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performsSeedTreatment"/>
+        <ObjectProperty IRI="#performsManualLabour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performsSowing"/>
+        <ObjectProperty IRI="#performsManualLabour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performsWeeding"/>
+        <ObjectProperty IRI="#performs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesHarvestingHighMiddle"/>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesHarvestingLowMiddle"/>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesHarvestingTop"/>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesPlanting"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesSowing"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesTopping"/>
+        <ObjectProperty IRI="#precedes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#precedesTransferToSoil"/>
+        <ObjectProperty IRI="#precedesPlanting"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#producesLeaves"/>
+        <ObjectProperty IRI="#produces"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresEquipment"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresPreparation"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresSunlight"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+        <ObjectProperty IRI="#transfered"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+        <ObjectProperty IRI="#transfered"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#treatedBySeedTreatment"/>
+        <ObjectProperty IRI="#treatedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usedInFieldPreparationBy"/>
+        <ObjectProperty IRI="#usedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usedInFieldPreparationFor"/>
+        <ObjectProperty IRI="#usedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+        <ObjectProperty IRI="#usedIn"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contributesToYield"/>
+        <ObjectProperty IRI="#damagesYield"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#developedFrom"/>
+        <ObjectProperty IRI="#developsInto"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#precedes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#followsCuring"/>
+        <ObjectProperty IRI="#precedesCuring"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#followsHarvesting"/>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#followsPlanting"/>
+        <ObjectProperty IRI="#precedesPlanting"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#followsSowing"/>
+        <ObjectProperty IRI="#precedesSowing"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#followsTopping"/>
+        <ObjectProperty IRI="#precedesTopping"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isParentOf"/>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <ObjectProperty IRI="#waters"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#curedByAir"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#curedByControlledCuring"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#developedFrom"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#developsInto"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCultivar"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#locatedInField"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#locatedInSpot"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#producesLeaves"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#attributeOfField"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#containsSeed"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#requiresEquipment"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#usedInFieldPreparationBy"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#usedInFieldPreparationFor"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#developedFrom"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#developsInto"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isSiblingOf"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#locatedInSpot"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#containsSeed"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isParentOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requiresEquipment"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#usedInFieldPreparationBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#usedInFieldPreparationFor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#developedFrom"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#developsInto"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#followsCuring"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#followsHarvesting"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#followsPlanting"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#followsSowing"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#followsTopping"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasPart"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesCuring"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesLeaf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesPlant"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesPlanting"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesSeedling"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesSowing"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedesTopping"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsHealth"/>
+        <Class IRI="#ClimateCondition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsHealth"/>
+        <Class IRI="#ManagementAction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#Cultivar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#CuringDuration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#CuringProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#FertilizerAmount"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#FertilizerType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#HarvestDate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#SunlightExposure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsNicotineContent"/>
+        <Class IRI="#Topping"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affectsWatering"/>
+        <Class IRI="#SunlightExposure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <Class IRI="#SoilMoisture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <Class IRI="#SoilType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <Class IRI="#pH"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsNicotine"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsSeed"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contributesToYield"/>
+        <Class IRI="#CuredLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#controlsWatering"/>
+        <Class IRI="#PumpingSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#curedByAir"/>
+        <ObjectUnionOf>
+            <Class IRI="#Burley"/>
+            <Class IRI="#Connecticut"/>
+            <Class IRI="#Maryland"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#curedByControlledCuring"/>
+        <Class IRI="#Virginia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#damagesYield"/>
+        <Class IRI="#CuredLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#destroyedByLabourer"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developedFrom"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developsInto"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#ProductionStage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#followsCuring"/>
+        <Class IRI="#CuringProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#followsHarvesting"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#followsPlanting"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#followsSowing"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#followsTopping"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <ObjectUnionOf>
+            <Class IRI="#CuredLeaf"/>
+            <Class IRI="#RawLeaf"/>
+            <Class IRI="#TobaccoPlant"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSoilMoisture"/>
+        <Class IRI="#TobaccoField"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSoilPH"/>
+        <Class IRI="#TobaccoField"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSoilType"/>
+        <Class IRI="#TobaccoField"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hostsCuringProcess"/>
+        <Class IRI="#CuringPlace"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#DamagedRawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#UndamagedRawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#CuredLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isParentOf"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isParentOf"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isParentOf"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <Class IRI="#CuredLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedInCuringPlace"/>
+        <Class IRI="#CuringProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedInField"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedInSpot"/>
+        <Class IRI="#TobaccoField"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#needsLime"/>
+        <Class IRI="#Soil"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#operatedBy"/>
+        <Class IRI="#ManagementAction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#operatedBy"/>
+        <Class IRI="#ProductionStage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsSeedTreatment"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsSowing"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performsWeeding"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedes"/>
+        <Class IRI="#ProductionStage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <Class IRI="#DamagedRawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <Class IRI="#UndamagedRawLeaf"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+        <Class IRI="#TobaccoTopping"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <Class IRI="#HealthySeedling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <Class IRI="#Seedling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <Class IRI="#UnhealthySeedling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesPlanting"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#TobaccoSeed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#TreatedSeed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#UntreatedSeed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesSowing"/>
+        <Class IRI="#SeedTreatment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#precedesTopping"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#producesLeaves"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#producesLeaves"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresEquipment"/>
+        <Class IRI="#SoilPreparation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresPreparation"/>
+        <Class IRI="#Soil"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <Class IRI="#TobaccoSeed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <Class IRI="#TreatedSeed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <Class IRI="#UntreatedSeed"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresSunlight"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresSunlight"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usedInFieldPreparationBy"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usedInFieldPreparationFor"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+        <Class IRI="#Substrate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#waters"/>
+        <Class IRI="#Irrigation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affectsHealth"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affectsWatering"/>
+        <Class IRI="#Irrigation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attributeOfField"/>
+        <Class IRI="#TobaccoField"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsSeed"/>
+        <Class IRI="#TobaccoSeed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contributesToYield"/>
+        <Class IRI="#YieldPerHectare"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#controlsWatering"/>
+        <Class IRI="#Irrigation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#curedByAir"/>
+        <Class IRI="#AirCuring"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#curedByControlledCuring"/>
+        <Class IRI="#ControlledCuring"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#damagesYield"/>
+        <Class IRI="#YieldPerHectare"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#destroyedByLabourer"/>
+        <Class IRI="#UnhealthySeedling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developedFrom"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developsInto"/>
+        <Class IRI="#TobaccoLifecycle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="#ProductionStage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#followsCuring"/>
+        <Class IRI="#YieldOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#followsHarvesting"/>
+        <Class IRI="#TobaccoCuring"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#followsPlanting"/>
+        <Class IRI="#TobaccoTopping"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#followsSowing"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#followsTopping"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCultivar"/>
+        <Class IRI="#Cultivar"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSoilMoisture"/>
+        <Class IRI="#SoilMoisture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSoilPH"/>
+        <Class IRI="#pH"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSoilType"/>
+        <Class IRI="#SoilType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hostsCuringProcess"/>
+        <Class IRI="#CuringProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inspectedForMechanicalDamageBy"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#CuredLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFromTheSameBatchAs"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isParentOf"/>
+        <Class IRI="#CuredLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isParentOf"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfPlant"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSiblingOf"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedInCuringPlace"/>
+        <Class IRI="#CuringPlace"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedInField"/>
+        <Class IRI="#TobaccoField"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedInSpot"/>
+        <Class IRI="#GeographicalLocation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#needsLime"/>
+        <Class IRI="#LimeApplication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#operatedBy"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#ActivateInsurance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#FertilizerApplication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#Irrigation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#LimeApplication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#PesticideApplication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#TobaccoCuring"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#TobaccoTopping"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsManualLabour"/>
+        <Class IRI="#Weeding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#DamagedRawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#ProductionStage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsMechanicalDamageVerification"/>
+        <Class IRI="#UndamagedRawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsSeedTreatment"/>
+        <Class IRI="#SeedTreatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsSeedTreatment"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsSowing"/>
+        <Class IRI="#Sowing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsSowing"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performsWeeding"/>
+        <Class IRI="#Weeding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedes"/>
+        <Class IRI="#ProductionStage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <Class IRI="#CuredLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <Class IRI="#MoldyCuredLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <Class IRI="#OvercuredLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesCuring"/>
+        <Class IRI="#UndercuredLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesHarvesting"/>
+        <Class IRI="#TobaccoHarvest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <Class IRI="#DamagedRawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <Class IRI="#RawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <Class IRI="#TobaccoLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesLeaf"/>
+        <Class IRI="#UndamagedRawLeaf"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <Class IRI="#HealthyPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <Class IRI="#SickPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesPlant"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesPlanting"/>
+        <Class IRI="#TobaccoPlanting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#HealthySeedling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#ProductionStage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#Seedling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesSeedling"/>
+        <Class IRI="#UnhealthySeedling"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesSowing"/>
+        <Class IRI="#Sowing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#precedesTopping"/>
+        <Class IRI="#TobaccoTopping"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresEquipment"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresPreparation"/>
+        <Class IRI="#LimeApplication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresPreparation"/>
+        <Class IRI="#SoilPreparation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresSubstrate"/>
+        <Class IRI="#Substrate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresSunlight"/>
+        <Class IRI="#SunlightExposure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresWateringBy"/>
+        <Class IRI="#Irrigation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transferedToSoilBy"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transferedToSoilIn"/>
+        <Class IRI="#TransferToSoil"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usedInFieldPreparationBy"/>
+        <Class IRI="#HumanAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usedInFieldPreparationFor"/>
+        <Class IRI="#TobaccoField"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usedInSeedbedFor"/>
+        <Class IRI="#TobaccoSeed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#waters"/>
+        <Class IRI="#TobaccoPlant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#waters"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#curedByAir"/>
+        <ObjectProperty IRI="#curedByControlledCuring"/>
+    </DisjointObjectProperties>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#altitudeMeasurementUnit"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#fertilizerNPK"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#frostMeasurementUnit"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hailstoneIntensity"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#harvestedAt"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#inPlasticTray"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#inPolystyreneTray"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isAHealthyPlant"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#nicotineMeasurementUnit"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#sizeMeasurementUnit"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#sownAt"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#toppedAt"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#transplantationToSoilAt"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#unitlessAltitudeScalar"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#whenMatureHasLengthInCentimeters"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#altitudeMeasurementUnit"/>
+        <Class IRI="#TobaccoField"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bactericideName"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chemicallyTreatedWithBactericide"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chemicallyTreatedWithFungicide"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#chemicallyTreatedWithInsecticide"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfFertilizerApplication"/>
+        <Class IRI="#FertilizerAmount"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfFrostIncidence"/>
+        <Class IRI="#FrostIncidence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfHailstoneOccurence"/>
+        <Class IRI="#HailstoneOccurence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfInsuranceActivation"/>
+        <Class IRI="#ActivateInsurance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfIrrigation"/>
+        <Class IRI="#Irrigation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dateOfRainfall"/>
+        <Class IRI="#RainfallAmount"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+        <Class IRI="#ClimateCondition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+        <Class IRI="#PestsAndDiseases"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fertilizerMeasurementUnit"/>
+        <Class IRI="#FertilizerAmount"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fertilizerNPK"/>
+        <Class IRI="#FertilizerType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fertilizerName"/>
+        <Class IRI="#FertilizerType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fieldLatitude"/>
+        <Class IRI="#TobaccoField"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fieldLongitude"/>
+        <Class IRI="#TobaccoField"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frostMeasurementUnit"/>
+        <Class IRI="#FrostIncidence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fungicideName"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hailstoneIntensity"/>
+        <Class IRI="#HailstoneOccurence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#harvestedAt"/>
+        <Class IRI="#RawLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasColor"/>
+        <Class IRI="#RawLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDiscoloration"/>
+        <Class IRI="#RawLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInsectDamage"/>
+        <Class IRI="#RawLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInsectDamage"/>
+        <Class IRI="#TobaccoPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLatitude"/>
+        <Class IRI="#GeographicalLocation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLongitude"/>
+        <Class IRI="#GeographicalLocation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMechanicalDamage"/>
+        <Class IRI="#RawLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMechanicalDamage"/>
+        <Class IRI="#TobaccoPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMold"/>
+        <Class IRI="#CuredLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPatches"/>
+        <Class IRI="#RawLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSpots"/>
+        <Class IRI="#RawLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inPlasticTray"/>
+        <Class IRI="#Sowing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inPolystyreneTray"/>
+        <Class IRI="#Sowing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#insecticideName"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#irrigationFrequencyMeasurementUnit"/>
+        <Class IRI="#Irrigation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#irrigationMeasurementUnit"/>
+        <Class IRI="#Irrigation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAHealthyPlant"/>
+        <Class IRI="#HealthyPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAHealthyPlant"/>
+        <Class IRI="#SickPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAHealthyPlant"/>
+        <Class IRI="#TobaccoPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <Class IRI="#HealthySeedling"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <Class IRI="#Seedling"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <Class IRI="#TobaccoSeedling"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <Class IRI="#UnhealthySeedling"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isOvercured"/>
+        <Class IRI="#CuredLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isRenewable"/>
+        <Class IRI="#Substrate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isUndercured"/>
+        <Class IRI="#CuredLeaf"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pHLevel"/>
+        <Class IRI="#pH"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rainfallMeasurementUnit"/>
+        <Class IRI="#RainfallAmount"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#seedRateMeasurementUnit"/>
+        <Class IRI="#Sowing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sizeMeasurementUnit"/>
+        <Class IRI="#Size"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#soilMoistureMeasurementUnit"/>
+        <Class IRI="#SoilMoisture"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sownAt"/>
+        <Class IRI="#HealthyPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sownAt"/>
+        <Class IRI="#SickPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sownAt"/>
+        <Class IRI="#Sowing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#substrateType"/>
+        <Class IRI="#Substrate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <Class IRI="#HealthyPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <Class IRI="#SickPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#thinnedAt"/>
+        <Class IRI="#TobaccoSeedbed"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#toppedAt"/>
+        <Class IRI="#HealthyPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#toppedAt"/>
+        <Class IRI="#SickPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transplantationToSoilAt"/>
+        <Class IRI="#HealthyPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transplantationToSoilAt"/>
+        <Class IRI="#SickPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessAltitudeScalar"/>
+        <Class IRI="#TobaccoField"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessFertilizerScalar"/>
+        <Class IRI="#FertilizerAmount"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessFieldSizeScalar"/>
+        <Class IRI="#Size"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessFrostScalar"/>
+        <Class IRI="#FrostIncidence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessIrrigationFrequencyScalar"/>
+        <Class IRI="#Irrigation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessIrrigationScalar"/>
+        <Class IRI="#Irrigation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessRainfallScalar"/>
+        <Class IRI="#RainfallAmount"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessSeedRateScalar"/>
+        <Class IRI="#Sowing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#unitlessSoilMoistureScalar"/>
+        <Class IRI="#SoilMoisture"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasDisinfected"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasHormonallyTreated"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasPelleted"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasPrimmed"/>
+        <Class IRI="#SeedTreatment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weededAt"/>
+        <Class IRI="#HealthyPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weededAt"/>
+        <Class IRI="#SickPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#whenMatureHasLengthInCentimeters"/>
+        <Class IRI="#TobaccoPlant"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#altitudeMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bactericideName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#chemicallyTreatedWithBactericide"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#chemicallyTreatedWithFungicide"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#chemicallyTreatedWithInsecticide"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfFertilizerApplication"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfFrostIncidence"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfHailstoneOccurence"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfInsuranceActivation"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfIrrigation"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dateOfRainfall"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#enoughToActivateInsurance"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fertilizerMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fertilizerNPK"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fertilizerName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fieldLatitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fieldLongitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#frostMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fungicideName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hailstoneIntensity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#harvestedAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasColor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDiscoloration"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInsectDamage"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLatitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLongitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMechanicalDamage"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMold"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPatches"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSpots"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inPlasticTray"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inPolystyreneTray"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#insecticideName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#irrigationFrequencyMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#irrigationMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAHealthyPlant"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAHealthySeedling"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isOvercured"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isRenewable"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isUndercured"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#leafMaturityLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nicotineMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pHLevel"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rainfallMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#seedRateMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sizeMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#soilMoistureMeasurementUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sownAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#substrateType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#suckersRemovedAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#thinnedAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#toppedAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transplantationToSoilAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessAltitudeScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessFertilizerScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessFieldSizeScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessFrostScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessIrrigationFrequencyScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessIrrigationScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessNicotineScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessRainfallScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessSeedRateScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#unitlessSoilMoistureScalar"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wasDisinfected"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wasHormonallyTreated"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wasPelleted"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wasPrimmed"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weededAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#whenMatureHasLengthInCentimeters"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#CuredLeaf"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isOvercured"/>
+                <Variable IRI="/x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isUndercured"/>
+                <Variable IRI="/x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#CuredLeaf"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isUndercured"/>
+                <Variable IRI="/x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isOvercured"/>
+                <Variable IRI="/x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActivateInsurance</IRI>
+        <Literal xml:lang="en">&quot;The action of initiating or activating an insurance policy to protect against potential losses in tobacco production due to adverse events such as weather conditions or pest infestations.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AirCuring</IRI>
+        <Literal xml:lang="en">&quot;A curing process in which tobacco leaves are hung in ventilated barns and dried naturally by air, often used for Burley and Maryland tobacco varieties.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Burley</IRI>
+        <Literal xml:lang="en">&quot;A variety of tobacco plant, typically air-cured, known for its light brown to pale yellow leaves.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClimateCondition</IRI>
+        <Literal xml:lang="en">&quot;Environmental factors such as temperature, humidity, and rainfall that affect the growth and quality of tobacco plants.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Connecticut</IRI>
+        <Literal xml:lang="en">&quot;A variety of tobacco grown primarily in the Connecticut River Valley, known for producing fine cigar wrapper leaves.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cultivar</IRI>
+        <Literal xml:lang="en">&quot;A specific variety of tobacco plant that has been selectively bred for particular traits such as flavor, yield, or disease resistance.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CuredLeaf</IRI>
+        <Literal xml:lang="en">&quot;A tobacco leaf that has undergone the curing process, which involves drying and preparing the leaf for use.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CuringDuration</IRI>
+        <Literal xml:lang="en">&quot;The length of time tobacco leaves are subjected to curing, which can influence the quality and flavor of the final product.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CuringPlace</IRI>
+        <Literal xml:lang="en">&quot;The physical location where tobacco leaves undergo the curing process, such as a curing barn or shed.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CuringProcess</IRI>
+        <Literal xml:lang="en">&quot;The specific method used to cure tobacco leaves, including air-curing, fire-curing, flue-curing, and sun-curing.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FertilizerApplication</IRI>
+        <Literal xml:lang="en">&quot;The process of applying nutrients to the soil or plants to promote growth and improve yield.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FrostIncidence</IRI>
+        <Literal xml:lang="en">&quot;Occurrence of frost events that can damage tobacco plants, particularly during sensitive growth periods.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GeographicalLocation</IRI>
+        <Literal xml:lang="en">&quot;The physical location of a tobacco field, which can affect growing conditions such as climate, soil, and altitude.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HailstoneOccurence</IRI>
+        <Literal xml:lang="en">&quot;The frequency or likelihood of hailstones, which can physically damage tobacco plants and reduce yield.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HarvestDate</IRI>
+        <Literal xml:lang="en">&quot;The specific date or period when tobacco plants are harvested, which can influence leaf quality and curing outcomes.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Health</IRI>
+        <Literal xml:lang="en">&quot;Health-related aspects concerning the workers involved in tobacco farming, such as exposure to chemicals or physically demanding tasks.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HumanAgent</IRI>
+        <Literal xml:lang="en">&quot;A person involved in the production, management, or distribution of tobacco plants.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Humidity</IRI>
+        <Literal xml:lang="en">&quot;The level of moisture in the air, which can impact tobacco plant health, curing processes, and leaf quality.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IncidenceOfPestsAndDiseases</IRI>
+        <Literal xml:lang="en">&quot;The occurrence rate or frequency of pest infestations and disease outbreaks in a tobacco field, which can affect overall yield.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Irrigation</IRI>
+        <Literal xml:lang="en">&quot;The artificial application of water to tobacco fields to support plant growth during dry periods.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LimeApplication</IRI>
+        <Literal xml:lang="en">&quot;The process of applying lime to the soil to adjust its pH level, enhancing soil quality and improving plant growth.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ManagementAction</IRI>
+        <Literal xml:lang="en">&quot;Actions taken by a human agent to influence the growth and yield of tobacco plants, such as irrigation, fertilization, and pest control.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maryland</IRI>
+        <Literal xml:lang="en">&quot;A tobacco variety traditionally grown in the state of Maryland, used for cigarettes and pipe tobacco.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NociveWeeds</IRI>
+        <Literal xml:lang="en">&quot;Harmful weed species that compete with tobacco plants for resources, potentially reducing crop quality and yield.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PesticideApplication</IRI>
+        <Literal xml:lang="en">&quot;The application of chemicals to control or eliminate pests that can damage tobacco plants.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PestsAndDiseases</IRI>
+        <Literal xml:lang="en">&quot;Harmful organisms or pathogens that can affect the health of tobacco plants, such as fungi, bacteria, and insects.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProductionStage</IRI>
+        <Literal xml:lang="en">&quot;A defined phase in the lifecycle of a tobacco plant, including planting, growth, harvest, and curing stages.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RainfallAmount</IRI>
+        <Literal xml:lang="en">&quot;The total precipitation received during the growing season, critical for proper plant hydration and growth.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RawLeaf</IRI>
+        <Literal xml:lang="en">&quot;A tobacco leaf that has not been processed or cured yet.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Size</IRI>
+        <Literal xml:lang="en">&quot;The total area of the tobacco field, which may influence the scale of production and the resources required.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Soil</IRI>
+        <Literal xml:lang="en">&quot;The top layer of the tobacco field that supports plant growth, providing nutrients and a medium for root development.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SoilCondition</IRI>
+        <Literal xml:lang="en">&quot;The characteristics and qualities of the soil in which tobacco plants are grown, which can affect plant health and yield.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SoilMoisture</IRI>
+        <Literal xml:lang="en">&quot;The amount of water retained in the soil, crucial for maintaining plant hydration and preventing stress during growth.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SoilPreparation</IRI>
+        <Literal xml:lang="en">&quot;The process of preparing the soil for planting, which includes plowing, adding amendments, and other treatments to enhance soil quality.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SoilType</IRI>
+        <Literal xml:lang="en">&quot;The classification of soil based on its texture, composition, and drainage capabilities, which affect its suitability for growing tobacco.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SunlightExposure</IRI>
+        <Literal xml:lang="en">&quot;The amount of sunlight that tobacco plants receive, essential for photosynthesis and overall growth.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Temperature</IRI>
+        <Literal xml:lang="en">&quot;The air temperature, which affects the metabolic rate of the tobacco plant and influences leaf growth and development.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoCuring</IRI>
+        <Literal xml:lang="en">&quot;The process of drying and preparing tobacco leaves after harvest to develop their flavor and reduce moisture content.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoField</IRI>
+        <Literal xml:lang="en">&quot;A designated area of land where tobacco plants are cultivated.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoHarvest</IRI>
+        <Literal xml:lang="en">&quot;The stage in tobacco production where the mature tobacco leaves are collected from the plants for processing.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoLeaf</IRI>
+        <Literal xml:lang="en">&quot;The leaf of the tobacco plant, which is the primary product used in the manufacture of cigarettes, cigars, and other tobacco products.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoLifecycle</IRI>
+        <Literal xml:lang="en">&quot;The complete biological lifecycle of a tobacco plant, from germination to harvest and curing.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoPlant</IRI>
+        <Literal xml:lang="en">&quot;A plant from the Nicotiana genus, primarily grown for its leaves which are used for tobacco production.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoPlanting</IRI>
+        <Literal xml:lang="en">&quot;The stage where tobacco seeds or seedlings are planted in the field to begin the growing process.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoSeed</IRI>
+        <Literal xml:lang="en">&quot;The seed of the tobacco plant, from which new plants grow. Tobacco seeds are typically small and sown in a seedbed.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoSeedbed</IRI>
+        <Literal xml:lang="en">&quot;A prepared area for starting tobacco seeds, used to grow seedlings before they are transplanted into the field.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoSeedling</IRI>
+        <Literal xml:lang="en">&quot;A young tobacco plant that has germinated from a seed and is in its early growth stages before being transplanted to the field.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TobaccoTopping</IRI>
+        <Literal xml:lang="en">&quot;The removal of the tobacco plant&apos;s flowers to focus energy on leaf growth, improving the quality and yield of the leaves.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TreatedSeed</IRI>
+        <Literal xml:lang="en">&quot;A seed that has been subjected to chemical or biological treatment to enhance its resistance to pests, diseases, or adverse environmental conditions.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weeding</IRI>
+        <Literal xml:lang="en">&quot;The removal of unwanted plants or weeds that compete with tobacco plants for nutrients, water, and light.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#YieldOutcome</IRI>
+        <Literal xml:lang="en">&quot;The result of tobacco cultivation, often measured in terms of quantity and quality of leaves produced.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cured_leaf_01</IRI>
+        <Literal xml:lang="en">&quot;Example of healthy leaf that contributes positively to the yield of the production&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cured_leaf_02</IRI>
+        <Literal xml:lang="en">&quot;Example of defective leaf that does not contribute positively to the yield of the production&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#developsInto</IRI>
+        <Literal xml:lang="en">&quot;A relationship representing the biological development of an entity, such as a seed developing into a seedling or a seedling developing into a mature plant.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasColor</IRI>
+        <Literal xml:lang="en">&quot;A property representing the color of a tobacco leaf, which can change during the growth and curing process.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasMechanicalDamage</IRI>
+        <Literal xml:lang="en">&quot;Indicates whether a tobacco leaf or plant has sustained physical damage from mechanical sources, such as machinery, or being stteped on by humans or animals.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pH</IRI>
+        <Literal xml:lang="en">&quot;The acidity or alkalinity of the soil, which influences nutrient availability and plant growth.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sizeMeasurementUnit</IRI>
+        <Literal>&quot;The unit of measurement for the size, e.g., hectares or square meters.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wasHormonallyTreated</IRI>
+        <Literal xml:lang="en">&quot;Indicates whether a plant has been treated with hormones to enhance its development.&quot;</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
